@@ -11,7 +11,7 @@ function SearchBar() {
     )
   }
   return (
-    <div>
+    <>
       <input
        placeholder='Enter emoji name'
        onChange={(e)=>{
@@ -21,7 +21,7 @@ function SearchBar() {
        type='text'
        />
       <button id='searchButton' >Search</button>
-    </div>
+    </>
   )
 }
 
